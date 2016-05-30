@@ -1,0 +1,19 @@
+
+En command:
+
+npm install express
+npm install body-parser
+
+
+
+
+node js command:
+
+cd:\Users\Proyecto\ejercicio205>node Index.js
+
+
+
+
+en el explorador poner:
+
+http://localhost:3000

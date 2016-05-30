@@ -1,0 +1,125 @@
+
+
+/*menu*/
+
+body{
+	background-image: url("imagenes/Fondo.jpg");
+}
+
+
+div.barra{
+	background-color: rgba(255,255,255,0.4);
+	display: inline-block;
+	width:100%;
+	padding: 25px;
+}
+div.logo{
+	display: inline-block;
+	width:8%;
+	padding: 5px 5px 5px 15px,
+}
+div.Lista{
+	font-size: 10px;
+	display: inline-block;
+	width:90%;
+	text-align: right;
+}
+li{
+	float:right;
+	display:inline-block;
+	width:7%;
+	text-align:center;
+	font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+	color:orange;
+}
+
+
+
+/*contenido principal imagenes*/
+
+
+
+*{	
+	box-sizing: border-box;
+}
+.fila{
+	width: 100%;
+	display: block;			
+}
+.fila::after{
+	clear:both;
+}
+.fila:after{
+	clear:both;
+}
+
+*[class^="columna"]{
+	float:left;
+	display: block;
+	float: left;
+	overflow: hidden;
+	height: 135px;
+}
+.columna50{
+	width: 50%;
+}
+.columna25{
+	width: 25%;
+}
+.columna100{
+	width: 100%;
+}
+*[class^="columna"] > img{
+	max-width: 100%;
+	border: 2px solid ;
+	border-color:white;
+	}
+
+.hero > *[class^="columna"] {
+	height: 270px;
+}
+ 
+
+
+/* Tablet & Desktop */
+@media (min-width: 768px){
+	body{
+	background-image: url("imagenes/Fondo.jpg");
+	position: fixed;
+	z-index: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+main, header{
+	position: relative;
+	z-index: 1;
+}
+
+nav{
+	backgorund-color
+}
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1000px){   
+	body{
+		background-color: green;
+	}
+}
+/* Desktop */
+@media (min-width: 1001px) and (max-width: 4080px){     
+	body{
+		background-color: blue;
+	}
+}
+
+

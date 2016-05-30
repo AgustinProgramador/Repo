@@ -1,0 +1,10 @@
+{
+	"nom" :"Juan Perez",
+	"about":"soy un groso",
+	"exp":[{
+			"lugar":"GL",
+			"pos":"dev",
+			"periodo":"2016"
+			}],
+	"con":["tec1","tec2"]
+	}
