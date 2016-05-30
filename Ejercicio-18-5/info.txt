@@ -13,7 +13,6 @@ npm install restify
 
 app.js
 var restify = require ("restify");
-
 var config =require("./config.js");
 
 var server = restify.createServer({
@@ -51,7 +50,7 @@ module.exports = {
 	server_ip: "127.0.0.1",
 	server_port : "8080"
 };
-------------------------------------------------------------------
+
 
 
 en msdos:

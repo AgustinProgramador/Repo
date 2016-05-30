@@ -1,0 +1,11 @@
+C:/Repo
+
+git add . -A
+git commit –m “Nota”
+git push
+
+hacer un archivo:
+.gitignore
+adentro poner:
+node modules 
+
